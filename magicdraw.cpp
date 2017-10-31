@@ -39,7 +39,9 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
   double length, angle;
   RED = GetColor( 255, 0, 0 );
 
+  SetOutApplicationLogValidFlag( FALSE );
   SetGraphMode( WindowX , WindowY , 32 );
+  SetMainWindowText( "MagicDraw" );
   ChangeWindowMode( TRUE );
 
   if( DxLib_Init() == -1 ){ return -1; }
