@@ -8,7 +8,8 @@
 各線の位置は座標変換により取得されている．
 
 ## Usage
-`magicdraw.exe`を実行する．
+1. DxLib環境下で `magicdraw.cpp` をビルド(コンパイル+リンク)
+1. できあがった実行ファイルを実行
 
 ## Install
 ```
